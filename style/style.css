@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid black;
+}
+.row{
+    border: 1px solid red;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    border: 2px solid green;
+}
+#header{
+    background-color: blue;
+}
+#menu{
+    background-color: aquamarine;
+    
+
+}
+#menu li{
+    display: inline-block;
+    list-style: none;
+}
+#sidebar{
+    background-color: yellow;
+}
+#footer{
+    background-color: brown;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}

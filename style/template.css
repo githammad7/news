@@ -1,0 +1,123 @@
+#header{
+  color: aliceblue;
+    background-color: #34ace0;
+}
+.section{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section h2.section_head{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section h2.section_head::after{
+  background-color: #34ace0;
+  display: block;
+  content: "";
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+
+}
+#menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li{
+  display: inline-block;
+ 
+}
+#menu li a{
+  text-decoration: none;
+  color: aliceblue;
+  
+  padding: 15px 10px;
+  display: block;
+}
+#menu li a:hover{
+  background-color: #227093;
+ 
+}
+#banner{
+  background: url("../images/banner.jpg")no-repeat 0 0;
+  background-size:cover;
+}
+.banner_title h1{
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  margin: 50px 0;
+
+}
+.banner_title p.lead{
+  background-color: #227093;
+  opacity: 0.5;
+  color: aliceblue;
+}
+#section h1{
+  text-align: center;
+  margin-top:50px;
+  font-size: 30px;
+}
+.service_box{
+  text-align: center;
+}
+.service_box i.fa-solid{
+  font-size: 70px;
+  color:#34ace0;
+}
+#testimonial{
+  background: url(../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg) no-repeat 0 0;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+  color: #fff;
+  
+}
+.testimonial img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.news-post img{
+  width: 280px;
+  height: 150px;
+
+}
+.news-post h3 a{
+  color:#34ace0;
+  text-decoration: none;
+}
+.news-post a{
+  text-decoration: none;
+  color: #34ace0;
+  
+}
+#footer{
+  background-color: #34ace0;
+  padding: 10px 0;
+  color: #fff;
+}
+.Latest-news a{
+  color: #fff;
+}
+#end{
+  background-color: #227093;
+  color: #fff;
+}
+@media  (min-width:992px) {
+  .news-post img{
+    width: 200px;
+    height: 150px;
+  
+  }
+  
+}
+@media (max-width:768px){
+  #logo{
+    text-align: center;
+  }
+  #menu{
+    text-align: center;
+  }
+}
